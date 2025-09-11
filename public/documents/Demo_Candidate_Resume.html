@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Candidate - Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #f8f9fa;
+        }
+        .resume {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .name {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 10px;
+        }
+        .title {
+            font-size: 1.2em;
+            color: #3b82f6;
+            margin-bottom: 15px;
+        }
+        .contact {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            color: #6b7280;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #1f2937;
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .job {
+            margin-bottom: 20px;
+        }
+        .job-header {
+            display: flex;
+            justify-content: between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        .job-title {
+            font-weight: bold;
+            color: #1f2937;
+        }
+        .company {
+            color: #3b82f6;
+            font-weight: 600;
+        }
+        .duration {
+            color: #6b7280;
+            font-style: italic;
+            margin-left: auto;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        .skill {
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .education-item {
+            margin-bottom: 15px;
+        }
+        .degree {
+            font-weight: bold;
+            color: #1f2937;
+        }
+        .school {
+            color: #3b82f6;
+        }
+        .year {
+            color: #6b7280;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <div class="header">
+            <div class="name">Demo Candidate</div>
+            <div class="title">Software Engineer</div>
+            <div class="contact">
+                <span>📧 demo.candidate@email.com</span>
+                <span>📱 +1-555-0199</span>
+                <span>🔗 linkedin.com/in/democandidate</span>
+                <span>🌐 democandidate.dev</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Professional Summary</div>
+            <p>Motivated Software Engineer with 3+ years of experience in full-stack development. Passionate about creating efficient, scalable solutions and continuously learning new technologies. Strong background in JavaScript, React, and Node.js with experience in agile development environments.</p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Work Experience</div>
+            
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Software Engineer</div>
+                        <div class="company">TechStart Solutions</div>
+                    </div>
+                    <div class="duration">2022 - Present</div>
+                </div>
+                <ul>
+                    <li>Developed and maintained web applications using React and Node.js</li>
+                    <li>Collaborated with cross-functional teams to deliver features on time</li>
+                    <li>Implemented responsive designs and improved user experience</li>
+                    <li>Participated in code reviews and maintained high code quality standards</li>
+                    <li>Worked with RESTful APIs and database integration</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Junior Developer</div>
+                        <div class="company">Digital Innovations</div>
+                    </div>
+                    <div class="duration">2021 - 2022</div>
+                </div>
+                <ul>
+                    <li>Built responsive websites using HTML, CSS, and JavaScript</li>
+                    <li>Learned React framework and modern development practices</li>
+                    <li>Assisted senior developers with debugging and testing</li>
+                    <li>Contributed to team projects using Git version control</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Web Development Intern</div>
+                        <div class="company">Creative Agency</div>
+                    </div>
+                    <div class="duration">Summer 2021</div>
+                </div>
+                <ul>
+                    <li>Created landing pages and marketing websites</li>
+                    <li>Learned industry best practices and development workflows</li>
+                    <li>Worked closely with design team to implement mockups</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Technical Skills</div>
+            <div class="skills">
+                <span class="skill">JavaScript</span>
+                <span class="skill">React</span>
+                <span class="skill">Node.js</span>
+                <span class="skill">HTML5</span>
+                <span class="skill">CSS3</span>
+                <span class="skill">TypeScript</span>
+                <span class="skill">Express.js</span>
+                <span class="skill">MongoDB</span>
+                <span class="skill">PostgreSQL</span>
+                <span class="skill">Git</span>
+                <span class="skill">REST APIs</span>
+                <span class="skill">Responsive Design</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Education</div>
+            <div class="education-item">
+                <div class="degree">Bachelor of Science in Computer Science</div>
+                <div class="school">State University</div>
+                <div class="year">2021</div>
+                <div style="clear: both;"></div>
+                <p style="margin-top: 5px; color: #6b7280;">GPA: 3.7/4.0 • Relevant Coursework: Data Structures, Algorithms, Software Engineering, Database Systems</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Key Projects</div>
+            
+            <div class="job">
+                <div class="job-title">E-commerce Web Application</div>
+                <ul>
+                    <li>Built full-stack e-commerce platform with React frontend and Node.js backend</li>
+                    <li>Implemented user authentication, shopping cart, and payment processing</li>
+                    <li>Used MongoDB for data storage and Express.js for API development</li>
+                    <li>Deployed on Heroku with responsive design for mobile devices</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-title">Task Management Application</div>
+                <ul>
+                    <li>Created React-based task management app with drag-and-drop functionality</li>
+                    <li>Integrated with REST API for data persistence</li>
+                    <li>Implemented real-time updates using WebSocket connections</li>
+                    <li>Applied modern CSS techniques for smooth animations</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-title">Personal Portfolio Website</div>
+                <ul>
+                    <li>Designed and developed responsive portfolio showcasing projects</li>
+                    <li>Used modern JavaScript and CSS Grid/Flexbox for layout</li>
+                    <li>Optimized for performance and SEO best practices</li>
+                    <li>Deployed using GitHub Pages with custom domain</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Certifications & Achievements</div>
+            <ul>
+                <li>JavaScript Algorithms and Data Structures Certification - freeCodeCamp (2023)</li>
+                <li>React Developer Certification - Codecademy (2022)</li>
+                <li>Dean's List - Fall 2020, Spring 2021</li>
+                <li>University Programming Contest - 2nd Place (2020)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Additional Information</div>
+            <ul>
+                <li>Active contributor to open-source projects on GitHub</li>
+                <li>Volunteer web developer for local non-profit organizations</li>
+                <li>Fluent in English and Spanish</li>
+                <li>Passionate about learning new technologies and best practices</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
