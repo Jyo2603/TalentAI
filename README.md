@@ -2,10 +2,6 @@
 
 A modern AI-powered talent management system for recruiters and job seekers.
 
-## 🚀 Live Demo
-
-**[View Application](https://talentai-smart-recru-xq3x.bolt.host)**
-
 ### Demo Credentials
 - **Recruiter**: `sarah.chen@company.com` / `demo123456`
 - **Candidate**: `demo.candidate@email.com` / `demo123456`
